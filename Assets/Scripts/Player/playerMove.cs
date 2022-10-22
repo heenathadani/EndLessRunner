@@ -7,6 +7,7 @@ public class playerMove : MonoBehaviour
     public float playerSpeed = 6;
     public float horizontalSpeed = 2;
     static public bool canMove = true;
+    
 
     void Update()
     {
@@ -27,4 +28,5 @@ public class playerMove : MonoBehaviour
             }
         } 
     }
+    
 }

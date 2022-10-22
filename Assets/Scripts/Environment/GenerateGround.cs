@@ -20,7 +20,7 @@ public class GenerateGround : MonoBehaviour
     }
     IEnumerator GenerateSection()
     {
-        gID = Random.Range(0,2);
+        gID = Random.Range(0,3);
         Instantiate(ground[gID], new Vector3(0,14.7f,z), Quaternion.identity);
         z += 100;
         yield return new WaitForSeconds(2);
